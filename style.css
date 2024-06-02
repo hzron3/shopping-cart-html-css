@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: crimson;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+.featured,
+.product-detail {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.featured h2,
+.product-detail h2 {
+  color: crimson;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.product-info h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+footer {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
