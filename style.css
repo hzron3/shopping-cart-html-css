@@ -36,7 +36,8 @@ main {
 }
 
 .featured,
-.product-detail {
+.product-detail,
+.about-us {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -45,7 +46,8 @@ main {
 }
 
 .featured h2,
-.product-detail h2 {
+.product-detail h2,
+.about-us h2 {
   color: crimson;
 }
 
